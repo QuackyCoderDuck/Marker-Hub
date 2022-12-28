@@ -1,10 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Marker's Hub", "Midnight")
---Scripts
---A Section
+
 local Tab1 = Window:NewTab("A")
+local Tab2 = Window:NewTab("B")
+local Tab4 = Window:NewTab("D")
 local Section1 = Tab1:NewSection("A Games")
+local Section2 = Tab2:NewSection("B Games")
+local Section4 = Tab4:NewSection("D Games")
 
 Section1:NewButton("Anime Fighting Simulator", "Free Yen and Chikara", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/FludexHub/main/login.lua"))()
@@ -26,6 +29,10 @@ Section1:NewButton("Anime Rifts", "Anime Rifts Script", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
+Section1:NewButton("Anime Impact", "Anime Impact Script", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/xyba1337/Anime-Impact-Simulator-GUI/main/GUI%27"))()
+end)
+
 Section1:NewButton("Anime Sword Simulator", "Anime Sword Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Cospog/pufferfish-Hub/main/AnimeSword.lua%22"))()
 end)
@@ -35,29 +42,15 @@ Section1:NewButton("Anime Race Clicker", "Anime Race Clicker Script", function()
 end)
 
 Section1:NewButton("Anime Dimensions ", "Anime Dimensions Script", function()
- loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/AnimeGhost.lua', true))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ghost-home/public/main/AnimeGhost.lua", true))()
 end)
 
 Section1:NewButton("Anime Fighters ", "Anime Fighters Script", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    print("script here")
 end)
-
---End of A Category 
-
---B Section
-local Tab2 = Window:NewTab("B")
-local Section2 = Tab2:NewSection("B Games")
 
 Section2:NewButton("Blox Fruits Mobile", "Blox Fruits Script", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
-end)
-
-Section2:NewButton("Blox Fruits PC", "Blox Fruits PC Script", function()
-    local script = "https://gist.githubusercontent.com/stellar-4242/cfdb18840cd6b76dcab7f77ed11c9174/raw/85cabd593f8367a1dc03cfaae4bc15fb27aa7d81"
-task.spawn(function()
-    loadstring(game:HttpGetAsync(script))()
-end)
-syn.run_secure_lua("Oxv4OkGtK5aaKjkIRCEvHS5ib+nGLNPb./U21vqASWrNFmybUOFzspCsE9hQWxdEErNKT/sQNjP4Okc1HH42MGLYiDxmGbzJQg+byH/r+K9ElB8WX0c3ONIaBOrlwaWwupLli0FRu+pgnB9MdxgN4T+p90OS+u5+2XPAutNU5z1inFFYYXQq+FxFEmxru4pgs54qr1XglnvQCOK+AhuqyCUOkingMjs6iNm2NcVw/0I6dmedDPDDXiCgy0I8R8BzhsHnWLuyxQ2lW2qxSClE/uSXvU928gW0eZs8T3636MmsiboZoS3b75MomE2dTc3OSThcCe5D4Ew0ZPi/Rj734AS8mjQEqIg8NqNPiROad38jm4C2mb7/YhVuJe/+aZZYGOh/mCxjIEGArtYJIGuYQY92iMibar6RfyvozCI5ZB4/vVgmxeaYzRYPu1LY6f3LBTYA8HtxtGvUy9mGBBAMMwrWiNTDceNAaAvVzI++dT/81lJW4eXtXoC0bEvzgrlL1ih9koKicBF7f68w3S8uopa7LS1z6WSt7zE4jnZZWn3ghxVz7Bf3t2K+RVLxsEqhPcSCEnPo3OQRnhImxfQfhBVYeew18Jk3rt1CET/dd+xXLp2orabkvrMb/eox6kmVKrlHWcZ8svLwJCvgrPIdwUdbrwdr8k8KbSKaNbJ6VI2tILdvYaHo5eGr+/Y1kgEyrj6Yh5m8tbW/OZe4nGCbwk19f+/A7mV4UnZ3rGPIghJMwsTxRhHnYDOOv1oopxgvKHk/A00BX634z7eEEDN+M6onx0Jx0smfSbwE3e9M/K9pBLGyTO85E9A/f7FoIhL1iCKdN9mi8HVTcCt4kvHP1alst1nEVJuQjlOtanNrG3v324qmjdQznm9q0g1HMjXrpV3x1nxuact8C92ZvR6KASJTdGcKdtf/8BoXRfiKNusxgSBvbMdCj7Z0fhl0R7Ltl3xSd/iLfTKI3H29feHtFh1JKWcfY7kPhVaSSKbpMgeMf+8/DvtDWrhyfy62/DdFiEmKeZvjLgokxSUhy2aTyI3h4ov3MU/8w/o8SZnYSlrnaXlh/H4WYKuGdmbhvYMZ9BFm4PVMYdOcTi7cOaP+1UkavqwwDtwqAxOUogLgtaC14")
+    print("sorry i delete your script")
 end)
 
 Section2:NewButton("Build a Boat for Treasure", "Build a Boat for Treasure", function()
@@ -67,13 +60,6 @@ end)
 Section2:NewButton("Bedwars Script", "Bedwars Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bojoexploitz/yooo/main/itsobfuscated/InfinityHubTooOP", true))()
 end)
-
-
---End of B Section
---C Section, NO GAMES listed in Cakey Bot. C section is Tab3 and Section 3
---D Section
-local Tab4 = Window:NewTab("D")
-local Section4 = Tab4:NewSection("D Games")
 
 Section4:NewButton("Doors", "Doors Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
