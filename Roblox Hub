@@ -4,9 +4,11 @@ local Window = Library.CreateLib("Marker's Hub", "Midnight")
 
 local Tab1 = Window:NewTab("A")
 local Tab2 = Window:NewTab("B")
+local Tab3 = Window.NewTab("C")
 local Tab4 = Window:NewTab("D")
 local Section1 = Tab1:NewSection("A Games")
 local Section2 = Tab2:NewSection("B Games")
+local Section3 = Tab3:NewSection("C Games")
 local Section4 = Tab4:NewSection("D Games")
 --A Section
 Section1:NewButton("Anime Fighting Simulator", "Free Yen and Chikara", function()
@@ -46,11 +48,16 @@ Section1:NewButton("Anime Dimensions ", "Anime Dimensions Script", function()
 end)
 
 Section1:NewButton("Anime Fighters ", "Anime Fighters Script", function()
-    print("script here")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
+
+Section1:NewButton("Animal Simulator", "Anime Simulator Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/AnimalSimulator.lua"))()
+end)
+
 --B Section
 Section2:NewButton("Blox Fruits Mobile", "Blox Fruits Script", function()
-    print("sorry i delete your script")
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
 Section2:NewButton("Build a Boat for Treasure", "Build a Boat for Treasure", function()
@@ -60,6 +67,11 @@ end)
 Section2:NewButton("Bedwars Script", "Bedwars Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bojoexploitz/yooo/main/itsobfuscated/InfinityHubTooOP", true))()
 end)
+--C Section
+Section3:NewButton("Combat Warriors", "Combat Warriors Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
+end)
+
 --D Section
 
 Section4:NewButton("Doors", "Doors Script", function()
