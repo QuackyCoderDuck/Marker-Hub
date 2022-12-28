@@ -8,7 +8,7 @@ local Tab4 = Window:NewTab("D")
 local Section1 = Tab1:NewSection("A Games")
 local Section2 = Tab2:NewSection("B Games")
 local Section4 = Tab4:NewSection("D Games")
-
+--A Section
 Section1:NewButton("Anime Fighting Simulator", "Free Yen and Chikara", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/FludexHub/main/login.lua"))()
 end)
@@ -48,7 +48,7 @@ end)
 Section1:NewButton("Anime Fighters ", "Anime Fighters Script", function()
     print("script here")
 end)
-
+--B Section
 Section2:NewButton("Blox Fruits Mobile", "Blox Fruits Script", function()
     print("sorry i delete your script")
 end)
@@ -60,6 +60,7 @@ end)
 Section2:NewButton("Bedwars Script", "Bedwars Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bojoexploitz/yooo/main/itsobfuscated/InfinityHubTooOP", true))()
 end)
+--D Section
 
 Section4:NewButton("Doors", "Doors Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
@@ -68,3 +69,6 @@ end)
 Section4:NewButton("Da Hood", "Da Hood Script", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Hyotinhofofinho/s1mple/main/LIXO"))() 
 end)
+
+
+
