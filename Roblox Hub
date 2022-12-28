@@ -1,0 +1,11 @@
+local Scripts = Window:NewTab("Scripts")
+local ACategory = Scripts:NewSection("A Category")
+ACategory:NewButton("Anime Fighting Simulator", "Free Yen and Chikara", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/FludexHub/main/login.lua"))()
+end)
+ACategory:NewButton("Arsenal", "Aresenal Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFile
+end)
+ACategory:NewButton("Arsenal", "Aresenal Script", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+end)
