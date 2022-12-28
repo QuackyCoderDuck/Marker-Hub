@@ -27,11 +27,11 @@ Section1:NewButton("Anime Rifts", "Anime Rifts Script", function()
 end)
 
 Section1:NewButton("Anime Impact", "Anime Impact Script", function()
- loadstring(game:HttpGet('https://raw.githubusercontent.com/xyba1337/Anime-Impact-Simulator-GUI/main/GUI%27,true))()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/xyba1337/Anime-Impact-Simulator-GUI/main/GUI%27",true))()
 end)
 
 Section1:NewButton("Anime Sword Simulator", "Anime Sword Script", function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Cospog/pufferfish-Hub/main/AnimeSword.lua%22))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Cospog/pufferfish-Hub/main/AnimeSword.lua%22"))()
 end)
 
 Section1:NewButton("Anime Race Clicker", "Anime Race Clicker Script", function()
